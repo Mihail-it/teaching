@@ -11,7 +11,8 @@ c = int(input())
 n = a + b + c
 print('Введи кол-во участников о которых тебе следует узнать.')
 t = int(input())
-x = n / t
+
+x = n / t * 10
 print('Ответ%:')
 print(x )
 
