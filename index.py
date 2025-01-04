@@ -8,11 +8,11 @@ print('Введи B')
 b = int(input())
 print('Введи C')
 c = int(input())
-n = a + b + c
+n = a + b + c 
 print('Введи кол-во участников о которых тебе следует узнать.')
 t = int(input())
 
-x = n / t
+x = t / n * 100
 
 print('Ответ%:')
 print(x )
