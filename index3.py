@@ -57,5 +57,12 @@ tpl = ('a', 'b', 'c')
 sosiska, sordelka, banan = tpl
 # задали переменные для кортежа
 print(sosiska, sordelka, banan)
-# распаковка портежей 
+# распаковка кортежей 
+
+bro = (input('Введи да'))
+ccc = tuple(bro)
+ccc1 = list(ccc)
+# сделали список из кортежа
+print(ccc1)
+print(ccc)
 

@@ -2,15 +2,13 @@ print('''
       Привет! Это калькулятор процентов!
       Ниже введи "Дано" свое задачи, где будет a/b/c
       ''')
-print('Введи A')
-a = int(input())
-print('Введи B')
-b = int(input())
-print('Введи C')
-c = int(input())
+a = int(input('Введи A: '))
+b = int(input('Введи B: '))
+c = int(input('Введи C: '))
 n = a + b + c 
-print('Введи кол-во участников о которых тебе следует узнать.')
-t = int(input()) 
+t = int(input('Введи кол-во участников о которых тебе следует узнать: ')) 
 x = t / n * 100 
 print('Ответ%:')
 print(x)
+
+print('Book https://code.mu/ru/python/book/prime/')
