@@ -23,3 +23,4 @@ lst12.insert(2, '13')
 
 print(lst12)
 
+print(lst12)
